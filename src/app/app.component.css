@@ -1,0 +1,939 @@
+/* You can add global styles to this file, and also import other style files */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+  background: url('/assets/img/Background.png') no-repeat;
+    background-size: cover;
+    height: auto;
+    color: #fff;
+}
+
+header .header-nav {
+    height: 100px;
+    padding-top: 20px;
+}
+
+header .header-nav label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+}
+
+header .header-nav #toggle {
+    display: none;
+}
+
+header .logo {
+    float: left;
+    width: 60%;
+}
+
+header .logo h1 {
+    color: #EBCB80;
+    font-size: 36px;
+    font-weight: normal;
+}
+
+header nav {
+    float: right;
+    width: 40%;
+    padding-top: 20px;
+}
+
+header nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+header nav li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+header nav li i {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+header nav li input {
+    width: 50px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    color: #f4f4f4;
+}
+
+header .description {
+  background: url('/assets/img/iPhoneApp.png') no-repeat;
+    background-position: bottom right;
+    height: 668px;
+}
+
+header .description .information {
+    position: relative;
+    left: 80px;
+    top: 10px;
+    width: 300px;
+    font-weight: normal;
+    font-family: 'roboto';
+}
+
+header .description .information h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    padding-bottom: 100px;
+}
+
+header .description .information h1 {
+    color: #EBCB80;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 5px;
+    margin-left: 10px;
+}
+
+header .description .information h3 {
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+header .description .information p {
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+header .badge {
+    position: relative;
+    left: 80px;
+    top: 200px;
+    width: 350px;
+}
+
+header .badge img {
+    padding-left: 15px;
+}
+
+main {
+    padding: 0;
+    margin: 0;
+}
+
+/* stunning */
+
+#stunning {
+    text-align: center;
+    color: #4b4b4b;
+    padding: 50px;
+}
+
+#stunning h1 {
+    font-weight: normal;
+}
+
+#stunning p {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+#stunning .circle {
+    display: inline-table;
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+#stunning .circle:hover {
+    box-shadow: 1px 1px 10px rgba(138, 20, 79, 0.5);
+    border-radius: 20px;
+}
+
+#stunning .circle h1 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#stunning .circle p {
+    font-size: 12px;
+    text-transform: capitalize;
+    padding-left: 50px;
+    padding-right: 50px;
+    background: transparent;
+}
+
+#client {
+    text-align: center;
+    color: #fff;
+  background: url('/assets/img/background-slider.png') no-repeat;
+    background-size: cover;
+    height: 444px;
+    padding-top: 50px;
+}
+
+#client h1 {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+#client .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: auto;
+}
+
+#client .slider .description {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#client .slider .description p {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+#client .slider .description img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #EBCB80;
+    border-radius: 50px;
+}
+
+/* products */
+
+#products {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#products h1 {
+    font-weight: normal;
+}
+
+#products .title {
+    padding-left: 250px;
+    padding-right: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#products .card {
+    display: inline-table;
+    width: 20%;
+    margin-bottom: 50px;
+}
+
+#products .card:hover {
+    /* box-shadow: 1px 1px 10px rgba(138, 20, 79, 0.5); */
+}
+
+#products .card img {
+    width: 200px;
+    height: 200px;
+}
+
+#products .card h1 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#products .card p {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#products button {
+    width: 150px;
+    background: transparent;
+    border: 1px solid #4b4b4b;
+    border-radius: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+#products .card:hover button {
+    background: #EBCB80;
+    border: 0;
+}
+
+#products .card:hover img {
+    border: 1px solid #4b4b4b;
+    border-radius: 20px;
+}
+
+/* selling */
+
+#selling {
+    text-align: center;
+    height: 300px;
+    background: #EBCB80;
+    padding: 30px;
+}
+
+#selling h1 {
+    font-weight: normal;
+}
+
+#selling p {
+    width: 20%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#selling form input[type="email"] {
+    height: 30px;
+    background: #fff;
+    /* border: 1px solid rgba(138, 20, 79, 0.5); */
+    border: 0;
+    box-shadow: 1px 5px 10px rgba(75, 51, 63, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#selling form input[type="submit"] {
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    border: 0px;
+    background: #4b4b4b;
+    border-radius: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px;
+    box-shadow: 1px 5px 10px rgba(75, 51, 63, 0.5);
+}
+
+#selling form input[type="submit"]:hover {
+    background: #EBCB80;
+    color: #4b4b4b;
+}
+
+/* people */
+
+#people {
+    text-align: center;
+    padding: 50px;
+    height: 440px;
+}
+
+#people h1 {
+    font-size: 30px;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+#people .pe-card {
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    padding-bottom: 50px;
+}
+
+#people .pe-card .card {
+    position: relative;
+    width: 40%;
+    height: 260px;
+    margin-top: 30px;
+    background: #EBCB80;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(75, 51, 63, 0.5);
+}
+
+#people .pe-card .card:nth-child(2) {
+    background: #4b4b4b;
+    margin-top: 130px;
+    margin-left: 30px;
+    color: #fff;
+}
+
+#people .pe-card .card:nth-child(2) h1 {
+    color: #EBCB80;
+}
+
+#people .pe-card .card:hover {
+    box-shadow: 1px 1px 20px rgba(138, 20, 79, 0.5);
+}
+
+#people .pe-card .card .card-main {
+    margin-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+#people .pe-card .card .card-footer {
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: left;
+}
+
+#people .pe-card .card .card-footer h1 {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+#people .pe-card .card .card-footer h2 {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+#people .pe-card .card .card-image {
+    position: absolute;
+    bottom: -30px;
+    right: 50px;
+}
+
+#people .card .card-image img {
+    width: 60px;
+    height: 60px;
+}
+
+/* plans */
+
+#plans {
+    text-align: center;
+    padding: 30px;
+}
+
+#plans h1 {
+    color: #4b4b4b;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+#plans .card {
+    display: inline-table;
+    width: 20%;
+    height: 300px;
+    margin-top: 30px;
+    box-shadow: 1px 1px 10px rgba(75, 51, 63, 0.5);
+    margin-bottom: 30px;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+
+#plans .card .card-header {
+    height: 130px;
+  background: url('/assets/img/card-header.png') no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+#plans .card:nth-child(3) .card-header {
+  background: url('/assets/img/card-header\ \(1\).png') no-repeat;
+    background-size: cover;
+}
+
+#plans .card:nth-child(4) .card-header {
+  background: url('/assets/img/card-header\ \(2\).png') no-repeat;
+    background-size: cover;
+}
+
+#plans .card:nth-child(5) .card-header {
+  background: url('/assets/img/card-header\ \(3\).png') no-repeat;
+    background-size: cover;
+}
+
+#plans .card .card-header h1 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 18px;
+}
+
+#plans .card .card-header h2 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 46px;
+}
+
+#plans .card .card-header .current {
+    font-size: 20px;
+}
+
+#plans .card .card-main p {
+    padding: 35px;
+}
+
+#plans .card button {
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #4b4b4b;
+    background: transparent;
+    text-transform: uppercase;
+}
+
+#plans .card button:hover {
+    background: #EBCB80;
+}
+
+#plans .card:hover {
+    box-shadow: 1px 1px 20px rgba(138, 20, 79, 0.5);
+}
+
+/* touch */
+
+#touch {
+    height: auto;
+  background: url('/assets/img/background\ \(2\).png') no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+#touch h1 {
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+
+#touch form {
+    background: #4b4b4b;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(138, 20, 79, 0.5);
+    padding: 20px;
+}
+
+#touch form input {
+    position: relative;
+    width: 280px;
+    margin-top: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+    padding: 8px;
+}
+
+#touch form input[type="checkbox"] {
+    float: left;
+    width: 20px;
+    margin-left: 20px;
+}
+
+#touch form label {
+    float: right;
+    position: relative;
+    right: 100px;
+    top: 15px;
+    text-transform: capitalize;
+}
+
+#touch form input[type="submit"] {
+    height: 60px;
+    text-transform: uppercase;
+    background: #EBCB80;
+    border-radius: 30px;
+}
+
+#touch form input[type="submit"]:hover {
+    background: #4b4b4b;
+    color: #fff;
+}
+
+#touch .touch-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#touch .touch-footer p {
+    display: inline;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+/* footer */
+
+footer {
+    height: auto;
+    background: #4b4b4b;
+    padding: 30px;
+    color: #fff;
+}
+
+footer .footer-header {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+footer .footer-header .card {
+    width: 25%;
+    margin-left: 20px;
+}
+
+footer .footer-header .card h1 {
+    border-bottom: 0.5px solid #fff;
+    text-transform: capitalize;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+footer .footer-header .card li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer .footer-header .card li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+footer .footer-header .card li a:hover {
+    color: #EBCB80;
+}
+
+footer .footer {
+    display: flex;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+}
+
+footer .footer .logo {
+    width: 70%;
+}
+
+footer .footer .logo h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+footer .footer .logo p {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+footer .footer nav {
+    width: 30%;
+}
+
+footer .footer nav li {
+    display: inline;
+    padding-left: 20px;
+}
+
+footer .footer nav li i {
+    color: #EBCB80;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 340px;
+        padding-bottom: 10px;
+    }
+    header .description {
+        display: none;
+    }
+    header .logo {
+        float: none;
+        width: 100%;
+    }
+    header nav {
+        float: none;
+        width: 100%;
+    }
+    header .header-nav {
+        height: auto;
+        padding-top: 20px;
+    }
+    header .header-nav label {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    header .header-nav nav {
+        display: none;
+    }
+    header .header-nav nav li {
+        display: block;
+        width: 80%;
+        border-bottom: 1px solid #f4f4f4;
+        text-align: center;
+        padding: 10px;
+        margin: 0 auto;
+    }
+    header .header-nav nav li:nth-child(5) {
+        display: none;
+    }
+    header .header-nav nav li:nth-child(6) {
+        display: none;
+    }
+    header .header-nav #toggle:checked+nav {
+        display: block;
+    }
+    #stunning {
+        padding: 0;
+    }
+    #stunning .circle {
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    #client .container {
+        width: 100%;
+    }
+    #client .slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        height: auto;
+    }
+    #client .slider .description {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #client .slider .description p {
+        font-weight: normal;
+        margin-bottom: 20px;
+    }
+    #client .slider .prev img {
+        width: 50px;
+        height: 50px;
+    }
+    #client .slider .next img {
+        width: 50px;
+        height: 50px;
+    }
+    #client .slider .description img {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #EBCB80;
+        border-radius: 50px;
+    }
+    #client .slider .description img {
+        display: none;
+    }
+    #products {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #products h1 {
+        font-weight: normal;
+    }
+    #products .title {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #products .card {
+        display: inline-table;
+        width: 20%;
+        margin-bottom: 50px;
+    }
+    #products .card:hover {
+        /* box-shadow: 1px 1px 10px rgba(138, 20, 79, 0.5); */
+    }
+    #products .card img {
+        width: 200px;
+        height: 200px;
+    }
+    #products .card h1 {
+        font-weight: normal;
+        font-size: 16px;
+    }
+    #products .card p {
+        font-weight: normal;
+        font-size: 14px;
+    }
+    #products button {
+        width: 150px;
+        background: transparent;
+        border: 1px solid #4b4b4b;
+        border-radius: 20px;
+        padding: 10px;
+        text-transform: uppercase;
+        margin-top: 10px;
+    }
+    #products .card:hover button {
+        background: #EBCB80;
+        border: 0;
+    }
+    #products .card:hover img {
+        border: 1px solid #4b4b4b;
+        border-radius: 20px;
+    }
+    #selling {
+        height: auto;
+    }
+    #selling p {
+        width: 100%;
+    }
+    #selling form input[type="email"] {
+        width: 100%;
+        height: 30px;
+    }
+    #selling form input[type="submit"] {
+        width: 100%;
+        height: 40px;
+    }
+    #people {
+        text-align: center;
+        padding: 0px;
+        padding-top: 10px;
+        height: auto;
+    }
+    #people .container {
+        width: 100%;
+    }
+    #people .pe-card {
+        display: inline-table;
+        justify-content: center;
+        height: 400px;
+    }
+    #people .pe-card .card {
+        position: relative;
+        width: 90%;
+        height: 260px;
+        margin-top: 5px;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    #people .pe-card .card:nth-child(1) {
+        margin-bottom: 30px;
+    }
+    #people .pe-card .card:nth-child(2) {
+        background: #4b4b4b;
+        margin: 0 auto;
+        color: #fff;
+    }
+    #people .pe-card .card:nth-child(2) h1 {
+        color: #EBCB80;
+    }
+    #plans {
+        padding: 0px;
+    }
+    #plans .container {
+        width: 100%;
+    }
+    #plans .card {
+        display: inline-table;
+        width: 90%;
+        height: 300px;
+        margin-top: 30px;
+        box-shadow: 1px 1px 10px rgba(75, 51, 63, 0.5);
+        margin-bottom: 30px;
+        border-radius: 5px;
+        margin-left: 0px;
+    }
+    #touch {
+        padding: 0px;
+    }
+    #touch .container {
+        width: 100%;
+    }
+    #touch form {
+        background: #4b4b4b;
+        height: 300px;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px rgba(138, 20, 79, 0.5);
+        padding: 0px;
+    }
+    #touch form input {
+        position: relative;
+        width: 90%;
+        margin-top: 10px;
+        height: 30px;
+        border-radius: 5px;
+        border: 0;
+        padding: 8px;
+    }
+    #touch form input[type="submit"] {
+        height: 50px;
+        text-transform: uppercase;
+        background: #EBCB80;
+        border-radius: 30px;
+    }
+    #touch form input[type="submit"]:hover {
+        background: #4b4b4b;
+        color: #fff;
+    }
+    #touch .touch-footer {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #touch .touch-footer p {
+        display: inline;
+        margin: 0 auto;
+        padding-left: 20px;
+    }
+    footer {
+        padding: 0px;
+        padding-bottom: 50px;
+        height: auto;
+    }
+    footer .footer-header {
+        display: inline-table;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    footer .footer-header .card {
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    footer .footer {
+        display: inline-table;
+        border-top: 1px solid #fff;
+        padding-top: 0px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    footer .footer .logo {
+        width: 100%;
+    }
+    footer .footer .logo h1 {
+        text-transform: uppercase;
+        font-weight: normal;
+        font-size: 20px;
+    }
+    footer .footer .logo p {
+        text-transform: capitalize;
+        font-weight: normal;
+        font-size: 14px;
+    }
+    footer .footer nav {
+        width: 100%;
+    }
+    footer .footer nav li {
+        display: inline;
+        padding-left: 20px;
+    }
+    footer .footer nav li i {
+        color: #EBCB80;
+        font-size: 20px;
+    }
+}
