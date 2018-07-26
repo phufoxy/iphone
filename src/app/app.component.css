@@ -7,7 +7,7 @@
 }
 
 header {
-  background: url('/assets/img/Background.png') no-repeat;
+    background: url('/assets/img/Background.png') no-repeat;
     background-size: cover;
     height: auto;
     color: #fff;
@@ -73,7 +73,7 @@ header nav li input {
 }
 
 header .description {
-  background: url('/assets/img/iPhoneApp.png') no-repeat;
+    background: url('/assets/img/iPhoneApp.png') no-repeat;
     background-position: bottom right;
     height: 668px;
 }
@@ -178,7 +178,7 @@ main {
 #client {
     text-align: center;
     color: #fff;
-  background: url('/assets/img/background-slider.png') no-repeat;
+    background: url('/assets/img/background-slider.png') no-repeat;
     background-size: cover;
     height: 444px;
     padding-top: 50px;
@@ -349,13 +349,15 @@ main {
 }
 
 #people .pe-card .card {
-    position: relative;
+    position: absolute;
     width: 40%;
     height: 260px;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     background: #EBCB80;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(75, 51, 63, 0.5);
+    z-index: 9;
+    cursor: move;
 }
 
 #people .pe-card .card:nth-child(2) {
@@ -434,23 +436,23 @@ main {
 
 #plans .card .card-header {
     height: 130px;
-  background: url('/assets/img/card-header.png') no-repeat;
+    background: url('/assets/img/card-header.png') no-repeat;
     background-size: cover;
     color: #fff;
 }
 
 #plans .card:nth-child(3) .card-header {
-  background: url('/assets/img/card-header\ \(1\).png') no-repeat;
+    background: url('/assets/img/card-header\ \(1\).png') no-repeat;
     background-size: cover;
 }
 
 #plans .card:nth-child(4) .card-header {
-  background: url('/assets/img/card-header\ \(2\).png') no-repeat;
+    background: url('/assets/img/card-header\ \(2\).png') no-repeat;
     background-size: cover;
 }
 
 #plans .card:nth-child(5) .card-header {
-  background: url('/assets/img/card-header\ \(3\).png') no-repeat;
+    background: url('/assets/img/card-header\ \(3\).png') no-repeat;
     background-size: cover;
 }
 
@@ -496,7 +498,7 @@ main {
 
 #touch {
     height: auto;
-  background: url('/assets/img/background\ \(2\).png') no-repeat;
+    background: url('/assets/img/background\ \(2\).png') no-repeat;
     background-size: cover;
     text-align: center;
     color: #fff;
