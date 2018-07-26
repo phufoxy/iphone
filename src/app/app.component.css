@@ -349,10 +349,10 @@ main {
 }
 
 #people .pe-card .card {
-    position: absolute;
+    position: relative;
     width: 40%;
     height: 260px;
-    /* margin-top: 30px; */
+    margin-top: 30px;
     background: #EBCB80;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(75, 51, 63, 0.5);
